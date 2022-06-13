@@ -7,9 +7,6 @@ class TestVarriables:
     RANGE_ERROR = "Неверно задан диапазон."
 
 
-def f(x):
-    return 1 / x ** 2 + 7
-
 
 def LAB3_VAR2_5(start, stop, step):
     if type(start) != int and type(start) != float:
